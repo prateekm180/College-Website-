@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>College Website</title>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+     <link rel="stylesheet" href="C:\Users\DELL\Documents\Projects\CSS File\College Website.css">
+</head>
+<body>
+     <aside class="sidebar">
+          <header>
+               <a href="#" class="header-logo">
+                    <img src="C:\Users\DELL\Documents\Projects\Project Image Video Sounds\Images\Screenshot 2024-12-11 205900.png" alt="College Logo">
+               </a>
+               <button class="toggler sidebar-toggler">
+                    <span class="material-symbols-rounded">chevron_left</span>
+               </button>
+               <button class="toggler menu-toggler">
+                    <span class="material-symbols-rounded">menu</span>
+               </button>
+          </header>
+          <nav class="sidebar-nav">
+               <ul class="nav-list primary-nav">
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">dashboard</span>
+                          <span class="nav-label">Dashboard</span>
+                       </a>
+                       <span class="nav-tooltip">Dashboard</span>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">calendar_today</span>
+                          <span class="nav-label">Calendar</span>
+                       </a>
+                       <span class="nav-tooltip">Calendar</span>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">notifications</span>
+                          <span class="nav-label">Notifications</span>
+                       </a>
+                       <span class="nav-tooltip">Notifications</span>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">group</span>
+                          <span class="nav-label">Team</span>
+                       </a>
+                       <span class="nav-tooltip">Team</span>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">insert_chart</span>
+                          <span class="nav-label">Analytics</span>
+                       </a>
+                       <span class="nav-tooltip">Analytics</span>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">star</span>
+                          <span class="nav-label">Bookmarks</span>
+                       </a>
+                       <span class="nav-tooltip">Bookmarks</span>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">settings</span>
+                          <span class="nav-label">Settings</span>
+                       </a>
+                       <span class="nav-tooltip">Settings</span>
+                   </li>
+               </ul>
+               <ul class="nav-list secondary-nav">
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">account_circle</span>
+                          <span class="nav-label">Profile</span>
+                       </a>
+                       <span class="nav-tooltip">Profile</span>
+                   </li>
+                   <li class="nav-item">
+                       <a href="#" class="nav-link">
+                          <span class="nav-icon material-symbols-rounded">logout</span>
+                          <span class="nav-label">Logout</span>
+                       </a>
+                       <span class="nav-tooltip">Logout</span>
+                   </li>
+               </ul>
+          </nav>
+     </aside>
+     <div class="main" id="main">
+          <img src="E:\Me\Pictures\Camera pics\WhatsApp Image 2024-12-07 at 22.14.17_23e13c79.jpg" alt="College Campus Image">
+          <div class="container" id="container">
+               <div class="form-container">
+                    <form id="loginForm">
+                         <h2>Login</h2><br>
+                         <input type="text" id="username" placeholder="Username" required>
+                         <input type="password" id="password" placeholder="Password" required>
+                         <button type="submit">Login</button>
+                         <p>Don't have an account? <a href="#" id="signupLink">Sign Up</a></p>
+                    </form>   
+                    <form id="signupForm" style="display: none;">
+                         <h2>Sign Up</h2><br>
+                         <input type="text" id="newUsername" placeholder="Username" required>
+                         <input type="email" id="newEmail" placeholder="E-mail" required>
+                         <input type="password" id="newPassword" placeholder="Password" required>
+                         <button type="submit">Sign Up</button>
+                         <p>Already have an account? <a href="#" id="loginLink">Login</a></p>
+                    </form>
+                    <form id="signinForm" style="display: none;">
+                         <h2>Sign In</h2><br>
+                         <input type="text" id="newUsername" placeholder="Choose Username" required>
+                         <input type="email" id="newEmail" placeholder="E-mail" required>
+                         <input type="password" id="password" placeholder="Password" required>
+                         <button type="submit">Sign In</button>
+                         <p>Already have an account? <a href="#" id="loginLink">Login</a></p>
+                    </form>
+                    <form id="registered" style="display: none;">
+                         <h2>Registered</h2><br>
+                         <input type="text" id="newUsername" placeholder="Choose Username" required>
+                         <input type="email" id="newEmail" placeholder="E-mail" required>
+                         <input type="number" id="phoneNumber" placeholder="Phone Number" required>
+                         <input type="text" id="address" placeholder="Address" required>
+                         <input type="password" id="password" placeholder="Password" required>
+                         <button type="submit">Sign In</button>
+                         <p>Already have an account? <a href="#" id="loginLink">Login</a></p>
+                    </form>
+               </div>    
+          </div>
+     </div>
+     <footer>
+          <h2>COLLEGE OF VOCATIONAL STUDIES</h2>
+          <h3>affiliated by Universities of Delhi</h3>
+          <h4>www.csv.du.ac.in</h4>
+     </footer>
+     <script src="C:\Users\DELL\Documents\Projects\JavaScript\College Website.js"></script>
+</body>
+</html>
